@@ -1,7 +1,12 @@
-import sys
-
 from package.handler import print_version
-from project_two.package.handler import print_version as second_print
 
 print_version()
-second_print()
+
+# Is not working
+#from project_two.package.handler import print_version as second_print
+#second_print()
+
+# Is not working
+#import importlib
+#second_version = importlib.import_module('project_two.package.handler')
+#second_version.print_version()
